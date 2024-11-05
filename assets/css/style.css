@@ -51,15 +51,14 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .container{
-    max-width: 1300px ;
+    max-width: 1330px ;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 
 /*HEADER SECTION START */
-.header-section{
-    
-}
+
 .header-row{
     display: flex;
     align-items: center;
@@ -116,6 +115,40 @@ ul, li{
 }
 /*HEADER SECTION END  */
 
+
+/*HERO SECTION START */
+.hero-section{
+    padding: 90px 0;
+}
+.hero-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-right{
+    align-self: center;
+    cursor: pointer;
+}
+.hero-title h1{
+    font-weight: 800;
+    line-height: 85px;
+}
+.hero-info p{ 
+    font-size: 18px;
+    padding: 30px 0;
+    width: 422px;
+}
+.hero-btn a{
+    background: var(--header-btn-greadient);
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+/*HERO SECTION END  */
 
 /* SECTION START */
 /* SECTION END  */

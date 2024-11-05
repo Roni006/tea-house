@@ -1,3 +1,27 @@
+@media (max-width: 1250px){
+    .hero-title h1{
+        font-size: 65px;
+        line-height: 75px;
+    }
+}
+
+
+@media (max-width: 1130px){
+    .hero-title h1{
+        font-size: 55px;
+        line-height: 65px;
+    }
+}
+
+@media (max-width: 1050px){
+    .hero-row{
+        flex-wrap: wrap;
+    }
+    .hero-left{
+        margin-bottom: 50px;
+    }
+}
+
 @media (max-width: 630px){
     .menus{
         display: none;
@@ -5,5 +29,31 @@
     .bars i{
         display: block;
         visibility: visible;
+    }
+    .hero-right img{
+        width: 100%;
+    }
+    .hero-title h1{
+        font-size: 50px;
+        line-height: 55px;
+    }
+}
+
+@media (max-width: 475px){
+    .hero-info p{
+        font-size: 16px;
+        width: 100%;
+        text-align: justify;
+    }
+    .hero-title h1{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .hero-section{
+        padding: 60px 0;
+    }
+    .hero-btn a{
+        padding: 15px 15px;
+        font-size: 18px;
     }
 }
