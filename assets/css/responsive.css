@@ -20,6 +20,19 @@
     .hero-left{
         margin-bottom: 50px;
     }
+    .fp-info p{
+        width: 750px;
+    }
+    .fp-row{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 750px){
+    .fp-info p{
+        width: 650px;
+    }
 }
 
 @media (max-width: 630px){
@@ -36,6 +49,12 @@
     .hero-title h1{
         font-size: 50px;
         line-height: 55px;
+    }
+    .fp-info p{
+        width: 500px;
+    }
+    .fp-title h2{
+        font-size: 35px;
     }
 }
 
@@ -55,5 +74,12 @@
     .hero-btn a{
         padding: 15px 15px;
         font-size: 18px;
+    }
+    .fp-info p{
+        width:100%;
+        text-align: justify;
+    }
+    .fp-title h2{
+        font-size: 30px;
     }
 }
