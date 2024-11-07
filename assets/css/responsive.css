@@ -29,6 +29,12 @@
     .fp-row{
         flex-wrap: wrap;
     }
+    .tea-info p{
+        width: 450px;
+    }
+    .tea-row{
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -58,6 +64,15 @@
     }
     .fp-title h2{
         font-size: 35px;
+    }
+    .tea-info p{
+        width: 100%; 
+    }
+    .tea-right{
+        padding: 0 15px;
+    }
+    .bottom-info1 p, .bottom-info2 p{
+        width: 100%;
     }
 }
 
@@ -90,5 +105,14 @@
     }
     .ne-row{
         margin: 0 15px;
+    }
+    .tea-title h2{
+        font-size: 35px;
+        text-align: center;
+        line-height: 40px;
+    }
+    .tea-left{
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
