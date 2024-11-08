@@ -1,118 +1,175 @@
-@media (max-width: 1250px){
-    .hero-title h1{
+@media (max-width: 1250px) {
+    .hero-title h1 {
         font-size: 65px;
         line-height: 75px;
     }
 }
 
 
-@media (max-width: 1130px){
-    .hero-title h1{
+@media (max-width: 1130px) {
+    .hero-title h1 {
         font-size: 55px;
         line-height: 65px;
     }
-    .ne-row{
+
+    .ne-row {
         flex-wrap: wrap;
     }
 }
 
-@media (max-width: 1050px){
-    .hero-row{
+@media (max-width: 1050px) {
+    .hero-row {
         flex-wrap: wrap;
     }
-    .hero-left{
+
+    .hero-left {
         margin-bottom: 50px;
     }
-    .fp-info p{
+
+    .fp-info p {
         width: 750px;
     }
-    .fp-row{
+
+    .fp-row {
         flex-wrap: wrap;
     }
-    .tea-info p{
+
+    .tea-info p {
         width: 450px;
     }
-    .tea-row{
+
+    .tea-row {
         flex-wrap: wrap;
+    }
+
+    .client-row {
+        flex-wrap: wrap;
+    }
+
+    .client-left {
+        margin-bottom: 80px;
     }
 }
 
 
-@media (max-width: 750px){
-    .fp-info p{
+@media (max-width: 750px) {
+    .fp-info p {
         width: 650px;
     }
 }
 
-@media (max-width: 630px){
-    .menus{
+@media (max-width: 630px) {
+    .menus {
         display: none;
     }
-    .bars i{
+
+    .bars i {
         display: block;
         visibility: visible;
     }
-    .hero-right img{
+
+    .hero-right img {
         width: 100%;
     }
-    .hero-title h1{
+
+    .hero-title h1 {
         font-size: 50px;
         line-height: 55px;
     }
-    .fp-info p{
+
+    .fp-info p {
         width: 500px;
     }
-    .fp-title h2{
+
+    .fp-title h2 {
         font-size: 35px;
     }
-    .tea-info p{
-        width: 100%; 
+
+    .tea-info p {
+        width: 100%;
     }
-    .tea-right{
+
+    .tea-right {
         padding: 0 15px;
     }
-    .bottom-info1 p, .bottom-info2 p{
+
+    .bottom-info1 p,
+    .bottom-info2 p {
+        width: 100%;
+    }
+
+    .client-info p {
         width: 100%;
     }
 }
 
-@media (max-width: 475px){
-    .hero-info p{
+@media(max-width: 650px) {
+    .client-right img {
+        width: 100%;
+    }
+
+    .client-title h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 475px) {
+    .hero-info p {
         font-size: 16px;
         width: 100%;
         text-align: justify;
     }
-    .hero-title h1{
+
+    .hero-title h1 {
         font-size: 35px;
         line-height: 40px;
     }
-    .hero-section{
+
+    .hero-section {
         padding: 60px 0;
     }
-    .hero-btn a{
+
+    .hero-btn a {
         padding: 15px 15px;
         font-size: 18px;
     }
-    .fp-info p{
-        width:100%;
+
+    .fp-info p {
+        width: 100%;
         text-align: justify;
     }
-    .fp-title h2{
+
+    .fp-title h2 {
         font-size: 30px;
     }
-    .fp-top{
+
+    .fp-top {
         padding: 0 15px;
     }
-    .ne-row{
+
+    .ne-row {
         margin: 0 15px;
     }
-    .tea-title h2{
+
+    .tea-title h2 {
         font-size: 35px;
         text-align: center;
         line-height: 40px;
     }
-    .tea-left{
+
+    .tea-left {
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .client-row {
+        padding: 35px;
+    }
+    .client-info p{
+        text-align: justify;
+    }
+    .client-btn{
+        padding: 15px 18px;
     }
 }
