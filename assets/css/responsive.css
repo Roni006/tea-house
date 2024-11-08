@@ -201,3 +201,9 @@
         margin-bottom: 50px;
     }
 }
+
+@media(max-width: 375px){
+    .news h3{
+        width: 150px;
+    }
+}
