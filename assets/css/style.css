@@ -17,7 +17,8 @@ VERSION       : 1.0.0
     --tea2-rgba: rgba(94, 126, 62, 0.1);
     --tea3-rgba: rgba(230, 166, 35, 0.1);
     --client-section-bg: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
-
+    --footer-bg: linear-gradient(270deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 137, 56, 0.1) 100%);
+    --footer-menus-color: #494949;
 
 
 }
@@ -30,8 +31,7 @@ VERSION       : 1.0.0
 }
 
 body {
-    font-family: var(--global-font);
-    margin-bottom: 300px;
+    font-family: var(--global-font); 
 }
 
 h1 {
@@ -403,5 +403,78 @@ li {
 }
 /*CLIENT SECTION END  */
 
-/* SECTION START */
-/* SECTION END  */
+/*FOOTER SECTION START */
+.footer-section{
+    margin-top: 50px;
+    background: var(--footer-bg);
+    padding: 70px 0;
+}
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-btn a{
+    background: var(--client-section-bg);
+    color: var(--white-color);
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 8px; 
+    font-weight: 600;
+}
+.footer-btn{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.footer-btn .text{
+    font-size: 20px;
+}
+.footer-top{
+    padding-bottom: 80px;
+}
+.f-title h4{
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+ul li{
+    margin: 0 !important;
+    padding: 0 !important; 
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: var(--footer-menus-color);
+    font-size: 16px;  
+    font-weight: 600;
+} 
+.menu ul li a:hover{
+    color: var(--menus-hover);
+    transition: 0.2s;
+} 
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-menus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.news h3{
+    margin-bottom: 40px;
+}
+.footericons{
+    display: flex;
+    align-items: center; 
+    gap: 30px;
+    cursor: pointer;
+}
+.copy-right p{
+    text-align: center;
+    padding: 80px 0 0 0 ;
+}
+/*FOOTER SECTION END  */

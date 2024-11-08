@@ -101,6 +101,19 @@
     .client-info p {
         width: 100%;
     }
+    .footer-menus{ 
+        flex-wrap: wrap;
+        padding: 0 15px;
+    }
+    .footer-top{
+        padding: 0 15px 50px 0;
+    }
+    .margin{
+        margin-top: 30px;
+    }
+    .footer-btn{
+        gap: 20px;
+    }
 }
 
 @media(max-width: 650px) {
@@ -111,6 +124,10 @@
     .client-title h2 {
         font-size: 35px;
         line-height: 40px;
+    }
+    .footer-menus{
+        flex-direction: wrap;
+        gap: 20px;
     }
 }
 
@@ -171,5 +188,16 @@
     }
     .client-btn{
         padding: 15px 18px;
+    }
+    .footer-top{
+        flex-wrap: wrap; 
+        padding: 0 15px;
+    }
+    .footer-top .logo{
+        margin-bottom: 30px;
+    }
+    .footer-btn{
+        flex-wrap: wrap;
+        margin-bottom: 50px;
     }
 }
